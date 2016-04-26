@@ -7,9 +7,9 @@ Vagrant.configure(2) do |config|
   # hygieia-dev
   #
   config.vm.define "hygieia", :primary => true do |hygieia|
-    #hygieia.vm.box = "liatrio/hygieia-petclinic-demo-baked"
-    hygieia.vm.box = "hygieia-petclinic-demo-baked"
-    config.vm.box_url = "../hygieia-petclinic-demo-baked.box"
+    hygieia.vm.box = "liatrio/hygieia-petclinic-demo-baked"
+    #hygieia.vm.box = "hygieia-petclinic-demo-baked"
+    #config.vm.box_url = "../hygieia-petclinic-demo-baked.box"
 
     hygieia.vm.hostname = 'hygieia'
     hygieia.vm.network :private_network, ip: "192.168.100.10"
