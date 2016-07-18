@@ -19,12 +19,15 @@ Usage
 
 * `cd hygieia-petclinic-demo-baked`
 
-* Finally `vagrant up` to boot the machine
+*  `vagrant up`
 
 * Browse to [http://localhost:13000/](http://localhost:13000/)
+
 * Click in the user field and wait for API Connectivity to change from red to green (5-30 seconds depending on network quality / cloud)
+
 * Login with admin / password
-* When browsing to a dashboard give yourself 10-20 seconds for the "Build Per Day" and "Build Duration" graphs to populate.
+
+* When browsing to a dashboard it can take up to 10-20 seconds for the "Build Per Day" and "Build Duration" graphs to populate.
 
 Updating the box
 ------------------
