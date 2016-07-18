@@ -5,8 +5,8 @@ A baked vagrant box from wrapper cookbook hygieia-petclinic-demo-unbaked that ha
 * Timestamps are updated hourly in the mongodb on cron from /home/vagrant/update_timestamps.rb
 
 Instructions:
-* Unbaked https://github.com/liatrio/hygieia-petclinic-demo-unbaked
-* Baked https://github.com/liatrio/hygieia-petclinic-demo-baked
+* Unbaked https://github.com/liatrio-chef/hygieia-petclinic-demo-unbaked
+* Baked https://github.com/liatrio-chef/hygieia-petclinic-demo-baked
 
 Requirements
 ------------
